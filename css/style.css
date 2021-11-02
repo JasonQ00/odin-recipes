@@ -9,12 +9,11 @@ header {
     text-align: center;
 }
 
-li a {
+.recipes a {
     background-color: #f4511e;
     color: white;  
     border: none;
     padding: 5px 10px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     opacity: 1;
@@ -22,16 +21,16 @@ li a {
     margin: 2px;
 }
 
-li a:hover {
+.recipes a:hover {
     opacity: 0.5;
+}
+
+.recipes {
+    list-style-type: none;
+    text-align: left;
 }
 
 .oni, .yun {
     background-color: blueviolet;
     text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    text-align: left;
 }
